@@ -49,9 +49,9 @@ public class HomePage extends JFrame {
 		contentPane.add(lblNewLabel); 
 		
 		JButton btnNewButton_1 = new JButton("SIGN-UP");
-		btnNewButton_1.setBorder(new LineBorder(new Color(0, 0, 0), 3));
-		btnNewButton_1.setBackground(new Color(0, 191, 255));
 		btnNewButton_1.setBorderPainted(false);
+		btnNewButton_1.setBorder(new LineBorder(new Color(0, 0, 0), 4));
+		btnNewButton_1.setBackground(new Color(0, 191, 255));
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) 
 			{

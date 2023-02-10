@@ -1,6 +1,6 @@
 package com.ehcs.vacine.dao;
 
-import java.sql.*;
+import java.sql.*; 
 import java.sql.Statement;
 import java.text.SimpleDateFormat;
 import java.sql.Connection;
@@ -10,6 +10,9 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 import javax.swing.JOptionPane;
+
+import com.ehcs.main.Select_Page;
+import com.ehcs.main.Start_Page;
 import com.ehcs.vacine.services.DashBoard;
 import com.ehcs.vacine.services.Login;
 
@@ -96,9 +99,9 @@ public class DataBase {
 			}
 			if (pas.equals(pa)) {
 				JOptionPane.showMessageDialog(null, "Welcome  " + name);
-				DashBoard r = new DashBoard(adhar);
 				Login n = new Login();
-				r.setVisible(true);
+				Select_Page pg = new Select_Page(adhar);
+				pg.setVisible(true);
 				n.setVisible(false);
 			} else {
 				// JOptionPane.showMessageDialog(null, "Enter valid User Id And Pass");

@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import java.util.regex.Pattern;
 import java.awt.event.ActionEvent;
 import java.awt.Color;
+
+import com.ehcs.main.Select_Page;
 import com.ehcs.vacine.dao.DataBase;
 import com.toedter.calendar.JDateChooser;
 import javax.swing.JComboBox;
@@ -464,10 +466,15 @@ public class Registration extends JFrame {
 			if(a==0) {
 			DataBase db = new DataBase();
 			 c = db.insertIntoDB(al);
-			JOptionPane.showMessageDialog(null, c);
+//			JOptionPane.showMessageDialog(null, c);
 			}
 			if(c==1) {
 				JOptionPane.showMessageDialog(null, "Succesfully Submited");
+				
+				String adhar = null;
+				Select_Page pg = new Select_Page(adhar);
+				pg.setVisible(true);
+				setVisible(false);
 				}
 			else {JOptionPane.showMessageDialog(null, " Dosent Submited");
 			a=0;}
