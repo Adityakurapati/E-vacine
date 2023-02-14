@@ -12,6 +12,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.border.LineBorder;
 import java.awt.Font;
 import javax.swing.ImageIcon;
@@ -45,22 +46,30 @@ public class Cart extends JFrame {
 		panel.setBorder(new LineBorder(new Color(0, 0, 0), 6));
 		panel.setBounds(149, 201, 649, 373);
 		contentPane.add(panel);
-		panel.setLayout(new GridLayout(4, 5, 5, 5));
+		panel.setLayout(new GridLayout(4, 4));
+		
+		JPanel panel_3 = new JPanel();
+		panel.add(panel_3);
+		panel_3.setLayout(null);
+		
+		JPanel panel_4 = new JPanel();
+		panel_4.setBounds(313, 5, 351, 358);
+		panel_3.add(panel_4);
 //	    panel.setLayout(new GridLayout());
 		int sum = 0;
-		for (int i = 0; i < a.size(); i++) {
-			JLabel btnNewButton_1 = new JLabel("" + a.get(i));
-			btnNewButton_1.setBorder(new BevelBorder(BevelBorder.RAISED, new Color(0, 0, 255), new Color(255, 0, 0),
-					new Color(0, 255, 0), new Color(34, 139, 34)));
-			panel.add(btnNewButton_1);
-
-			JLabel btnNewButton_2 = new JLabel("" + a2.get(i));
-			btnNewButton_2.setBorder(new BevelBorder(BevelBorder.RAISED, new Color(0, 0, 255), new Color(255, 0, 0),
-					new Color(0, 255, 0), new Color(34, 139, 34)));
-			panel.add(btnNewButton_2);
-
-			sum += Integer.parseInt((String) a1.get(i));
-		}
+//		for (int i = 0; i < a.size(); i++) {
+//			JLabel btnNewButton_1 = new JLabel("" + a.get(i));
+//			btnNewButton_1.setBorder(new BevelBorder(BevelBorder.RAISED, new Color(0, 0, 255), new Color(255, 0, 0),
+//					new Color(0, 255, 0), new Color(34, 139, 34)));
+//			panel.add(btnNewButton_1);
+//
+//			JLabel btnNewButton_2 = new JLabel("" + a2.get(i));
+//			btnNewButton_2.setBorder(new BevelBorder(BevelBorder.RAISED, new Color(0, 0, 255), new Color(255, 0, 0),
+//					new Color(0, 255, 0), new Color(34, 139, 34)));
+//			panel.add(btnNewButton_2);
+//
+//			sum += Integer.parseInt((String) a1.get(i));
+//		}
 		JLabel label = new JLabel("" + sum);
 		label.setBorder(new LineBorder(new Color(0, 0, 0), 3));
 		label.setFont(new Font("Times New Roman", Font.BOLD | Font.ITALIC, 21));
@@ -116,6 +125,38 @@ public class Cart extends JFrame {
 		});
 		btnNewButton.setBounds(697, 689, 169, 43);
 		contentPane.add(btnNewButton);
+		
+		JButton btnOrderCancel = new JButton("ORDER  CANCEL");
+		btnOrderCancel.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				MedicineLists ml = new MedicineLists();
+				ml.setVisible(true);
+				   setVisible(false);
+			}
+		});
+		btnOrderCancel.setForeground(Color.BLACK);
+		btnOrderCancel.setFont(new Font("Times New Roman", Font.BOLD | Font.ITALIC, 21));
+		btnOrderCancel.setFocusTraversalPolicyProvider(true);
+		btnOrderCancel.setFocusCycleRoot(true);
+		btnOrderCancel.setBorderPainted(false);
+		btnOrderCancel.setBackground(Color.CYAN);
+		btnOrderCancel.setBounds(163, 689, 219, 43);
+		contentPane.add(btnOrderCancel);
+		
+		JPanel panel_2 = new JPanel();
+		panel_2.setBounds(71, 202, 311, 372);
+		int no = a.size();
+		no = 5;
+		panel_2.setLayout(new GridLayout(no,0));
+//		contentPane.add(panel_2);
+		for (int i = 0; i < a.size(); i++) 
+		{
+			JLabel btnNewButton_1 = new JLabel("" + a.get(i));
+			panel_2.add(btnNewButton_1);
+		}
+        JScrollPane scroll = new JScrollPane(panel_2);
+        
 	}
 
 	/**
@@ -139,9 +180,4 @@ public class Cart extends JFrame {
 			}
 		});
 	}
-
-	/**
-	 * Create the frame.
-	 */
-
 }

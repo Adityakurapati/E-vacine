@@ -237,12 +237,12 @@ public class DashBoard extends JFrame {
 		panel.add(lblNewLabel_13);
 		
 		JLabel lblNewLabel_15 = new JLabel("");
-		lblNewLabel_15.setIcon(new ImageIcon("C:\\Users\\VINOD\\Downloads\\mail.png"));
+		lblNewLabel_15.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\mail.png"));
 		lblNewLabel_15.setBounds(10, 83, 30, 27);
 		panel.add(lblNewLabel_15);
 		
 		JLabel lblNewLabel_16 = new JLabel("");
-		lblNewLabel_16.setIcon(new ImageIcon("C:\\Users\\VINOD\\Downloads\\id.png"));
+		lblNewLabel_16.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\id.png"));
 		lblNewLabel_16.setBounds(13, 51, 46, 22);
 		panel.add(lblNewLabel_16);
 		
@@ -252,7 +252,7 @@ public class DashBoard extends JFrame {
 		panel.add(lblNewLabel_17);
 		
 		JLabel lblNewLabel_18 = new JLabel("");
-		lblNewLabel_18.setIcon(new ImageIcon("C:\\Users\\VINOD\\Downloads\\phone.png"));
+		lblNewLabel_18.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\phone.png"));
 		lblNewLabel_18.setBounds(10, 162, 30, 30);
 		panel.add(lblNewLabel_18);
 		
@@ -262,7 +262,7 @@ public class DashBoard extends JFrame {
 		panel.add(lblNewLabel_18_1);
 		
 		JLabel lblNewLabel_19 = new JLabel("");
-		lblNewLabel_19.setIcon(new ImageIcon("C:\\Users\\VINOD\\Downloads\\book.png"));
+		lblNewLabel_19.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\book.png"));
 		lblNewLabel_19.setBounds(10, 206, 30, 30);
 		panel.add(lblNewLabel_19);
 		
@@ -340,12 +340,12 @@ public class DashBoard extends JFrame {
 		contentPane.add(lblNewLabel_10_2_1);
 		
 		JLabel lblNewLabel_11 = new JLabel("");
-		lblNewLabel_11.setIcon(new ImageIcon("C:\\Users\\VINOD\\OneDrive\\Pictures\\Vaccine\\right.png"));
+		lblNewLabel_11.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\right.png"));
 		lblNewLabel_11.setBounds(272, 487, 64, 62);
 		contentPane.add(lblNewLabel_11);
 		
 		JLabel lblNewLabel_11_1 = new JLabel("New label");
-		lblNewLabel_11_1.setIcon(new ImageIcon("C:\\Users\\VINOD\\OneDrive\\Pictures\\Vaccine\\X.png"));
+		lblNewLabel_11_1.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\X.png"));
 		lblNewLabel_11_1.setBounds(629, 487, 64, 62);
 		contentPane.add(lblNewLabel_11_1);
 		
@@ -375,7 +375,7 @@ public class DashBoard extends JFrame {
 		contentPane.add(lblNewLabel_9_1);
 		
 		JLabel lblNewLabel_8_1 = new JLabel("");
-		lblNewLabel_8_1.setIcon(new ImageIcon("C:\\Users\\VINOD\\OneDrive\\Pictures\\sumit\\images project\\kindpng_1468338-modified-modified.png"));
+		lblNewLabel_8_1.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\kindpng_1468338-modified-modified.png"));
 		lblNewLabel_8_1.setBounds(409, 127, 181, 180);
 		contentPane.add(lblNewLabel_8_1);
 		

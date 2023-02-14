@@ -73,8 +73,8 @@ public class Login extends JFrame {
 				setVisible(false);
 			}
 		});
-		lblNewLabel_9.setIcon(new ImageIcon("C:\\Users\\VINOD\\Downloads\\BACK (1).jpg"));
-		lblNewLabel_9.setBounds(803, 619, 37, 40);
+		lblNewLabel_9.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\back.jpg"));
+		lblNewLabel_9.setBounds(803, 619, 47, 40);
 		contentPane.add(lblNewLabel_9);
 		
 		JLabel lblNewLabel = new JLabel("Log In");

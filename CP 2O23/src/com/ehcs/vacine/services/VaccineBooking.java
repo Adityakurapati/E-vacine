@@ -1,25 +1,17 @@
 package com.ehcs.vacine.services;
 
-import java.awt.BorderLayout; 
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-
 import java.awt.Font;
 import java.awt.Color;
-
 import javax.swing.ButtonGroup;
-import javax.swing.ButtonModel;
 import javax.swing.ImageIcon;
 import javax.swing.JTextField;
-import javax.swing.JCheckBox;
 import javax.swing.JRadioButton;
-import javax.swing.JRadioButtonMenuItem;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.time.LocalDate;
@@ -27,13 +19,8 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.awt.event.ActionEvent;
 import javax.swing.JComboBox;
-import java.util.Locale;
 import javax.swing.DefaultComboBoxModel;
-import javax.swing.JTable;
-import javax.swing.table.DefaultTableModel;
-
 import com.ehcs.vacine.dao.DataBase;
-
 import javax.swing.border.MatteBorder;
 import javax.swing.JSeparator;
 import java.awt.event.MouseAdapter;
@@ -83,7 +70,7 @@ public class VaccineBooking extends JFrame {
 				db.setVisible(true);
 			}
 		});
-		lblNewLabel_7.setIcon(new ImageIcon("C:\\Users\\VINOD\\Downloads\\BACK (1).jpg"));
+		lblNewLabel_7.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\back.jpg"));
 		lblNewLabel_7.setBounds(738, 452, 54, 44);
 		contentPane.add(lblNewLabel_7);
 		

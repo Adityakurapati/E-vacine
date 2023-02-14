@@ -82,7 +82,7 @@ public class DashBoardAdmin extends JFrame {
 		});
 		lblNewLabel_6.setBounds(852, 64, 46, 25);
 		contentPane.add(lblNewLabel_6);
-		lblNewLabel_6.setIcon(new ImageIcon("C:\\Users\\VINOD\\Downloads\\BACK (1).jpg"));
+		lblNewLabel_6.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\back.jpg"));
 		
 		
 		
@@ -174,7 +174,7 @@ public class DashBoardAdmin extends JFrame {
 				panel.setVisible(true);
 			}
 		});
-		lblNewLabel_3_3_1.setIcon(new ImageIcon("C:\\Users\\VINOD\\OneDrive\\Pictures\\sumit\\images project\\menu_icon1.jpg"));
+		lblNewLabel_3_3_1.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\menu_icon1.jpg"));
 		contentPane.add(lblNewLabel_3_3_1);
 		
 		

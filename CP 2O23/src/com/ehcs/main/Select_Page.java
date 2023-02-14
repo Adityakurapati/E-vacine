@@ -57,7 +57,7 @@ public class Select_Page extends JFrame {
 				setVisible(false);	
 			}
 		});
-		btnNewButton.setBounds(320, 401,  154, 47);
+		btnNewButton.setBounds(324, 413,  154, 47);
 		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 23));
 		contentPane.add(btnNewButton);
 		
@@ -74,7 +74,7 @@ public class Select_Page extends JFrame {
 			}
 		});
 		btnVaccine.setFont(new Font("Tahoma", Font.PLAIN, 23));
-		btnVaccine.setBounds(66, 413, 154, 47);
+		btnVaccine.setBounds(60, 413, 154, 47);
 		contentPane.add(btnVaccine);
 	}
 

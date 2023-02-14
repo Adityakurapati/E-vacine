@@ -226,8 +226,8 @@ public int OTP=0;
 				
 			}
 		});
-		lblNewLabel_6.setIcon(new ImageIcon("C:\\Users\\VINOD\\Downloads\\BACK (1).jpg"));
-		lblNewLabel_6.setBounds(808, 486, 37, 28);
+		lblNewLabel_6.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\back.jpg"));
+		lblNewLabel_6.setBounds(808, 486, 47, 28);
 		contentPane.add(lblNewLabel_6);
 		
 		JLabel lblNewLabel_8 = new JLabel("New label");

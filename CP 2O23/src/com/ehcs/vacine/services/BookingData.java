@@ -66,8 +66,8 @@ public class BookingData extends JFrame {
 				setVisible(false);
 			}
 		});
-		lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\VINOD\\Downloads\\BACK.jpg"));
-		lblNewLabel_2.setBounds(853, 448, 30, 33);
+		lblNewLabel_2.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\back.jpg"));
+		lblNewLabel_2.setBounds(840, 451, 53, 33);
 		contentPane.add(lblNewLabel_2);
 		
 		JScrollPane scrollPane = new JScrollPane();

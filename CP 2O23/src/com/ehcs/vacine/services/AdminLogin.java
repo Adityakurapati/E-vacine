@@ -96,7 +96,7 @@ public class AdminLogin extends JFrame {
 		btnNewButton.setBounds(374, 347, 100, 35);
 		contentPane.add(btnNewButton);
 		
-		JLabel lblNewLabel_3_2 = new JLabel("Coronavirus disease (COVID-19): Vaccines");
+		JLabel lblNewLabel_3_2 = new JLabel("Coronavirus disease (COVID-19): Vaccine\r\n");
 		lblNewLabel_3_2.setForeground(Color.WHITE);
 		lblNewLabel_3_2.setFont(new Font("Perpetua Titling MT", Font.BOLD, 25));
 		lblNewLabel_3_2.setBounds(100, 5, 655, 44);
@@ -117,8 +117,8 @@ public class AdminLogin extends JFrame {
 				setVisible(false);
 			}
 		});
-		lblNewLabel_4.setIcon(new ImageIcon("C:\\Users\\sumit\\Downloads\\BACK.jpg"));
-		lblNewLabel_4.setBounds(863, 416, 37, 38);
+		lblNewLabel_4.setIcon(new ImageIcon("E:\\cp\\CPP PROJECT 2023\\Images\\vaccine\\back.jpg"));
+		lblNewLabel_4.setBounds(853, 419, 49, 38);
 		contentPane.add(lblNewLabel_4);
 		
 		JSeparator separator = new JSeparator();
